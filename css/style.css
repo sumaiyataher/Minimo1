@@ -1,0 +1,240 @@
+/* common start */
+
+body{
+  margin: 0;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Ubuntu', sans-serif;
+   font-size:16px;
+   font-weight: 400;
+   color: #626262;
+  }
+
+/* common end */
+
+/* header start */
+header{
+padding: 30px 0;
+}
+
+.container{
+    overflow: hidden;
+margin: 0 auto;
+width: 90%;
+/* border: 1px solid; */
+}
+
+.logo{
+  margin-top: 10px;
+width: 13%;
+/* border: 1px solid red; */
+float: left;
+}
+.logo a{
+
+}
+
+.logo a img{
+width: 100%;
+}
+
+.menu{
+width: 65%;
+/* border: 1px solid blue; */
+float: right;
+}
+
+.menu ul{
+float: right; 
+}
+
+.menu ul li{
+list-style: none;
+float: left;
+}
+.menu ul li a{
+display: inline-block;
+margin: 0 45px;
+color: #626262;
+text-decoration: none;
+text-transform: uppercase;
+border-bottom: 1px solid transparent;
+transition: .33s linear;
+}
+.menu ul li:last-child a{
+  margin-right: 0;
+}
+.menu ul li a:hover {
+  border-bottom: 1px solid #626262;
+
+}
+/* header end */
+
+/* banner start */
+.banner{
+
+}
+.b_img{
+
+}
+.b_img img{
+  width: 100%;
+}
+/* banner end */
+
+/* getaway start */
+.geteaway{
+  padding: 90px 0;
+}
+.container2{
+  overflow: hidden;
+  margin: 0 auto;
+  width: 80%;
+  /* border: 1px solid red;  */
+}
+.g_content{}
+.c_light{
+  margin: 0px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+ text-transform: uppercase;
+}
+.p_title{
+  font-family: 'Playfair Display', serif;
+  margin: 20px 0 30px;
+  font-size: 30px;
+  font-weight: 400;
+
+}
+.c_text{
+   margin: 10;
+  font-size: 16px;
+  font-weight: 400;
+  color: #626262;
+}
+
+.m_40{
+  margin-top: 40px;
+}
+/* getaway end */
+
+/* blog start */
+.blog{
+  padding: 90px  0px;
+}
+.single{
+  width: 47%;
+  float: left;
+  margin: 0px 18px;
+  padding: 50px 0px;
+}
+.single img{
+  width: 100%;
+  
+}
+
+/* news start*/
+.news{
+ padding: 90px;
+ background-color: #f7f7f7;
+}
+.signup{
+text-align: center;
+}
+.signup h1{
+color: #333;
+margin-top: 0;
+margin-bottom: 70px;
+}
+.s_form{
+  width: 400px;
+  /* border: 5px solid red; */
+  margin: 0 auto;
+  position: relative;
+}
+.s_form input{
+ font-family:  'Playfair Display', serif;
+ color: #626262;
+ font-size: 14px;
+ width: 345px;
+ height: 45px;
+ border: none;
+ border-bottom: 1px solid #333;
+ background-color: transparent;
+ padding-left: 5px;
+ padding-right: 45px;
+}
+.s_form input:focus{
+  outline: 0;
+}
+.s_form button{
+  position: absolute;
+  top:15px;
+ right: 0;
+background-color: transparent;
+border: none;
+cursor: pointer;
+}
+
+.s_form button:focus{
+  outline: 0;
+  
+}
+.s_form button img{}
+/* news end */
+
+
+
+
+/* more start */
+.more{
+  text-align: center;
+  padding: 90px 0px;
+}
+.more button{
+ 
+  font-family:'Playfair Display', serif;
+  font-weight:400;
+  font-size:16px;
+  width: 200px;
+  height: 60px;
+  color: #000;
+  border: 1px solid #000;
+  background-color: #fff;
+ cursor: pointer;
+  transition: .33s linear;
+}
+.more button:hover{
+  background-color: #000;
+  color: #fff;
+}
+/* more end */
+.footer{
+  background-color: #f7f7f7;
+padding: 50px 0px;
+}
+
+.f_left{
+  /* border: 1px solid red; */
+  float: left;
+}
+.f_left a{
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: 300px;
+  color: black;
+  text-decoration: none;
+}
+
+.f_right{
+  float: right;
+}
+.f_right a{
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: 300px;
+  color: #626262;
+  text-decoration: none;
+}
+
+
